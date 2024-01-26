@@ -1,0 +1,32 @@
+.title{
+  color: blueviolet;
+  font-weight: 900;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.function{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.total{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.add,.sub{
+  height: 30px;
+  width:30px;
+  font-size: 15px;
+}
+.reset{
+  height: 30px;
+  width:60px; 
+}
+.add:hover,.sub:hover,.reset:hover{
+  background-color: rgb(95, 43, 143);
+  color: white;
+}
